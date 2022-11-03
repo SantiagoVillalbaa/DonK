@@ -1,0 +1,39 @@
+.prueba-grid{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 500px ;
+    margin-top: 100px;
+}
+
+.prueba-grid h2{
+    width: 300px;
+    margin-left: 45%;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.prueba-grid p{
+    margin-top: 30px;
+    width: 400px;
+    margin-left: 40%; 
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 18px;
+
+}
+
+.foto-nosotros{
+    width: 550px;
+    height: 420px;
+    margin-left: 82%;
+} 
+
+
+.border{
+    width: 220px;
+    height: 5px;
+    background: #f7dd48;
+    margin-left: 12%;
+}

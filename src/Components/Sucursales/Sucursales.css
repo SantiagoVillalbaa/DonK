@@ -1,0 +1,91 @@
+.titulo-sucursales{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+.subtitulo-sucursales{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+
+.href{
+    text-decoration: none;
+    color: white;
+    width: 120px;
+    height: 400px;
+    /* margin: 10px auto 0; */
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid #f7dd48;
+    padding: 5px 5px; 
+    transition: 400ms;
+}
+
+.href:hover{
+    background-color: #f7dd48;
+    color: black;
+}
+
+
+
+.proximo {
+    margin: -10px 0 0;
+    color: #AE002D;
+    /* font-size: 160%; */
+    -ms-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+
+.contenedor-sucursales{
+    width: 100%;
+    margin: auto;
+    padding: 20px 0 100px;
+    text-align: center;
+}
+
+.sucursales{
+    /*  display: flex;
+        flex-direction: row;
+        margin: 50px; */
+        width: 80%;
+        margin: auto; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-family: 'Oswald', sans-serif;
+}
+
+.nombres-sucursales{
+    font-family: 'Oswald', sans-serif;
+    /* padding: 20px;
+    width: 400px; */
+    color: white;
+    width: 20%;
+    padding: 20px 0 20px;
+}
+
+.nombres-sucursales h3{
+    font-size: 23px;
+}
+
+.nombres-sucursales p{
+    font-size: 16px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.nombres-sucursales a{
+    font-size: 18px;
+}

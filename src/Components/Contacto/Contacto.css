@@ -1,0 +1,157 @@
+
+
+.contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 0px auto;
+    /* border-radius: 10px;   */
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: black; 
+    padding-left: 30px; 
+    font-family: 'Oswald', sans-serif;
+    /* margin-top: 150px; */
+    color: white;
+
+}
+
+input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #f7dd48; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    color: black;
+
+}
+
+
+textarea{
+    background-color: white; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #f7dd48; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+    font-family: 'Oswald', sans-serif;
+    color: black;
+
+
+}
+
+
+label{
+    display: block; 
+    float: center;  
+}
+
+
+.boton-contacto{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #f7dd48; 
+    border-color: #f7dd48; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+    color: white;
+
+}
+
+
+
+
+
+
+
+span{
+    color: #f7dd48; 
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: white;
+
+}
+
+
+.aviso{
+    font-size: 13px;  
+    color: black;  
+    font-family: 'Oswald', sans-serif;
+    color: white;
+
+
+}
+
+
+.titulo-contacto{
+    font-size: 39px;  
+    text-align: center; 
+    padding-bottom: 14px; 
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin-top: 150px;
+}
+
+
+.subtitulo-contacto{
+    font-size: 16px; 
+    padding-bottom: 14px;
+    color: #0e0e0e; 
+    font-family: 'Oswald', sans-serif;
+    color: white;
+
+
+}
+
+
+form p{
+    font-size: 14px; 
+    font-family: 'Oswald', sans-serif;
+    color: white;
+
+
+}
+
+button p{
+    color: black; 
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+::-webkit-input-placeholder {
+    color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+    color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+    outline:0;
+    border: 1px solid black;
+}
+
+
+.formulario textarea:focus{
+    outline:0;
+    border: 1px solid black;
+}

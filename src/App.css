@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+ */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.foto-presentacion{
+  background-image: url(https://www.ronnie.com.ar/resources/img/slides/8421661448055.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 650px;
+}
+
+
+.fondo{
+  background-color: black;
+  margin-top: 0px;
+} 

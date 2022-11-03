@@ -1,0 +1,39 @@
+
+
+.titulo{
+    font-size: 50px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 5%;
+}
+
+.navegacion {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: right;
+}
+.navegacion li a {
+    text-decoration: none;
+    padding: 0 16px; 
+    display: block;
+    font-size: 18px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.navegacion li {
+    display: inline-block;
+}
+
+.navegacion li a:hover {
+    /* color: #cc0d07; */
+    color: #f7dd48;
+    transition: 0.4s;
+}
+
+
+.carrito {
+    width: 40px;
+}
