@@ -1,6 +1,6 @@
 /* import { Link } from 'react-router-dom'; */
 import './Footer.css';
-import { FaLinkedin } from 'react-icons/fa';
+import { FaLinkedin, FaRegArrowAltCircleUp } from 'react-icons/fa';
 import Logo from '../../img/logo.jpeg';
 
 export const Footer = () => {
@@ -41,6 +41,7 @@ export const Footer = () => {
                     </a>
                 </div>
             </div>
+            <FaRegArrowAltCircleUp className='icono'/>
         </footer>
     )
 }

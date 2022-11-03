@@ -35,12 +35,12 @@
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    border-radius: 30px black;;
     text-align: center;
-    margin: 10px 0px 20px 0px;
+    margin: 15px 0px 20px 0px;
     font-size: 12px;
     font-family: 'Oswald', sans-serif;
     transition: all .5s;
+    border-radius: 6px;
 }
 
 .boton-comprar:hover{

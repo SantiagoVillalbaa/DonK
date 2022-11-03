@@ -45,8 +45,6 @@ textarea{
     padding-top: 15px; 
     font-family: 'Oswald', sans-serif;
     color: black;
-
-
 }
 
 
@@ -70,7 +68,7 @@ label{
     width: 420px;   
     cursor: pointer;
     color: white;
-
+    border-radius: 6px;
 }
 
 

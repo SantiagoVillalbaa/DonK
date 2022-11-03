@@ -8,7 +8,9 @@ const NavBar = () => {
     return (
         <header>
             <div className='logoNombre'>
-            <h1 className='titulo'>DON K</h1>
+                {/* <a href='#' className='titulo'> */}
+                    <h1 className='titulo'>DON K</h1>
+                {/* </a> */}
             </div>
             <ul className='navegacion'>
                 <li><a href='#'>BURGERS</a></li>
